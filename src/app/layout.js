@@ -1,7 +1,26 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
+import SmoothScroll from "@/components/SmoothScroll"
+import ScrollTrigger from "gsap-trial/ScrollTrigger";
+import { gsap } from "gsap/dist/gsap";
 const inter = Inter({ subsets: ["latin"] });
+
+
+ScrollTrigger.create({
+  animation:gsap.from(".logo", {
+    y:"50vh",
+    scale: 6,
+    yPercent: -50,
+  }),
+  scrub: true,
+  trigger:".content",
+  start: "top bottom",
+  endTrigger: ".content",
+  end: "top center",
+
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +30,38 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <SmoothScroll>
+        <div className="fixed w-full h-24 flex items-center justify-between px-0 py-4 bg-slate-50 z-40">
+          <div className="items-left">
+            <a className="no-underline uppercase px-5 py-4 text-base" href="#">kuliner</a>
+            <a className="no-underline uppercase px-5 py-4 text-base" href="">etnis</a>
+          </div>
+          <div className="items-right">
+            <a className="no-underline uppercase px-5 py-4 text-base" href="#">peta</a>
+            <a className="no-underline uppercase px-5 py-4 text-base" href="#">agama</a>
+          </div>
+        </div>
+        <div className="logo-container fixed top-0 left-1/2 -translate-x-1/2 p-6 z-50">
+          <Image
+          src="/nusantara.svg"
+          width={200}
+          height={200}
+          className="logo"
+          />
+        </div>
+        <div className="container w-full h-screen bg-slate-50"></div>
+        <div className="content w-full h-screen bg-slate-50 relative px-0 py-4">
+          <Image
+          src="https://www.humaniora.id/wp-content/uploads/2023/10/tari-bali.jpg"
+          width={1000}
+          height={1000}
+          className="w-full"
+          />
+        </div>
+        {children}
+        </SmoothScroll>
+        </body>
     </html>
   );
 }
