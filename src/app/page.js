@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,10 +18,6 @@ export default function Home() {
         </h1>
       </div>
       <div className="py-60"></div>
-
-      <div className="border rounded-full">
-        <h1 className="text-9xl font-medium text-right">KULINER</h1>
-      </div>
     </div>
   );
 }
