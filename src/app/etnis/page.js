@@ -113,7 +113,7 @@ export default function Page(){
                     height={1000}
                     className="m-auto w-9/12 rounded-3xl"
                     />
-                    <p className="text-3xl pt-10 pb-20 leading-loose">Suku Batak, yang terutama bermukim di Sumatera Utara, memiliki budaya yang kaya dan unik. Bahasa Batak, seni ukiran kayu, dan musik gondang sabangunan adalah ciri khas mereka. Masyarakat Batak dikenal dengan tradisi adat yang kuat, seperti upacara perkawinan adat yang disebut "Pesta Adat". Mereka juga memiliki kepercayaan tradisional yang melibatkan ritual untuk menghormati leluhur dan roh alam.</p>
+                    <p className="text-3xl pt-10 pb-20 leading-loose">Suku Batak, yang terutama bermukim di Sumatera Utara, memiliki budaya yang kaya dan unik. Bahasa Batak, seni ukiran kayu, dan musik gondang sabangunan adalah ciri khas mereka. Masyarakat Batak dikenal dengan tradisi adat yang kuat, seperti upacara perkawinan adat yang disebut &quot;Pesta Adat&quot;. Mereka juga memiliki kepercayaan tradisional yang melibatkan ritual untuk menghormati leluhur dan roh alam.</p>
                 </div>
                 <div className="suku">
                     <h1 className="text-5xl font-semibold pb-10">Suku Sumatera Selatan</h1>
