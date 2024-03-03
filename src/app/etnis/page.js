@@ -17,7 +17,7 @@ export default function Page(){
             <section>
             <h1 className="text-9xl text-center font-extrabold">Suku</h1>
                 <div className="p-36 justify-center">
-                    <h3 className=" text-5xl font-semibold">"Suku adat di Indonesia itu unik-unik!"</h3>
+                    <h3 className=" text-5xl font-semibold">&quot;Suku adat di Indonesia itu unik-unik!&quot;</h3>
                     <p className="text-3xl  leading-loose pt-20">Suku-suku di Indonesia mencerminkan keanekaragaman budaya yang kaya. Dari suku Jawa dengan keanggunan batik dan gamelan, hingga suku Batak dengan seni ukiran kayu yang indah, setiap suku menampilkan keunikan budaya mereka sendiri. Keanekaragaman ini menjadi salah satu aset berharga Indonesia dan merupakan pondasi dari identitas bangsa yang majemuk.</p>
                 </div>
                 <div className="pt-20">

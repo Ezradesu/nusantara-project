@@ -19,7 +19,7 @@ export default function Page(){
             <section className="intro">
                 <h1 className="text-9xl text-center font-extrabold">kuliner</h1>
                 <div className="p-36 justify-center">
-                    <h3 className=" text-5xl font-semibold">"Indonesia itu seperti surga bagi pencinta makanan!"</h3>
+                    <h3 className=" text-5xl font-semibold">&quot;Indonesia itu seperti surga bagi pencinta makanan!&quot;</h3>
                     <p className="text-3xl  leading-loose pt-20">Di sini, kita punya segala macam makanan enak dari Sabang sampai Merauke. Setiap sudutnya dipenuhi dengan cita rasa yang menggugah selera dan memanjakan lidah. Kekayaan rempah membuat Kuliner di Indonesia memiliki aroma dan cita rasa yang kuat.</p>
                 </div>
 
