@@ -18,6 +18,13 @@ export default function Home() {
         </h1>
       </div>
       <div className="py-60"></div>
+
+      <div className="flex flex-col items-center">
+        <p className="text-6xl text-center pb-10">Ayo, jelajahi lebih lanjut!</p>
+        <button className="jelajahi items-center outline outline-1 rounded-full bg-green-500 px-10 py-5" href="/kuliner">→</button>
+      </div>
+
+      <div className="container w-full h-40"></div>
     </div>
   );
 }
